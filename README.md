@@ -24,7 +24,7 @@ $('.truncate').each(function () {
 ```
 The result will be
 ```html
-<p class="truncate">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defe...</p>
+We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defe...
 ```
 
 
@@ -46,5 +46,5 @@ $('.truncate').each(function () {
 ```
 The result will be
 ```html
-<p class="truncate">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense,...</p>
+We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense,...
 ```
