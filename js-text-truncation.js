@@ -1,4 +1,4 @@
-// Simple Method - This code truncates the text to an exact length, then adds the elipsis to the end of it.
+// simple method
 
 var str = '';
 var len = 15;
@@ -10,7 +10,8 @@ $('YOUR_SELECTOR').each(function () {
 });
 
 
-// Advanced Method - This code truncates the text to the end of the next word after that exact length, then adds a space and the elipsis to the end of it.
+
+// advanced method 
 
 var str = '';
 var len = 15;
