@@ -16,7 +16,7 @@ This script was original written by <a href="https://github.com/abrad45/" target
 ```js
 //simple method
 var str = '';
-var len = 75;
+var len = 65;
 $('.truncate').each(function () {
   str = $(this).text();
   if(str.length >= len) {
@@ -26,7 +26,7 @@ $('.truncate').each(function () {
 ```
 The result will be
 ```html
-We the People of the United States, in Order to form a more perfect Union, ...
+We the People of the United States, in Order to form a more perfe...
 ```
 
 
@@ -38,7 +38,7 @@ We the People of the United States, in Order to form a more perfect Union, ...
 ```js
 //advanced method
 var str = '';
-var len = 75;
+var len = 65;
 $('.truncate').each(function () {
   str = $(this).text();
   if(str.length >= len) {
@@ -48,5 +48,5 @@ $('.truncate').each(function () {
 ```
 The result will be
 ```html
-We the People of the United States, in Order to form a more perfect Union, establish...
+We the People of the United States, in Order to form a more perfect...
 ```
