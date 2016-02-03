@@ -14,7 +14,7 @@ Simple Method
 ```js
 //simple method
 var str = '';
-var len = 150;
+var len = 50;
 $('.truncate').each(function () {
   str = $(this).text();
   if(str.length >= len) {
@@ -36,7 +36,7 @@ Advanced Method
 ```js
 //advanced method
 var str = '';
-var len = 150;
+var len = 50;
 $('.truncate').each(function () {
   str = $(this).text();
   if(str.length >= len) {
