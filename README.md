@@ -5,7 +5,7 @@ The Simple Method truncates the text to an exact length, then adds the ellipsis 
 
 This script was original written by <a href="https://github.com/abrad45/" target="blank">abrad45</a>.
 
-<a href="http://codepen.io/tschisler/full/qbMaeo" target="_blank">CodePen Demo</a>
+###<a href="http://codepen.io/tschisler/full/qbMaeo" target="_blank">CodePen Demo</a>###
 
 ## Usage ##
 Simple Method
