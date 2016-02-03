@@ -1,4 +1,4 @@
-## js-text-truncation ##
+## Jquery Text Truncation ##
 This code truncates the text then adds the elipsis to the end of it.
 
 The Simple Method truncates the text to an exact length, then adds the ellipsis to the end of it. The Advanced Method truncates the text to the end of the next word after that exact length, then adds a space and the ellipsis to the end of it.
