@@ -5,6 +5,8 @@ The Simple Method truncates the text to an exact length, then adds the ellipsis 
 
 This script was original written by <a href="https://github.com/abrad45/" target="blank">abrad45</a>.
 
+## <a href="http://codepen.io/tschisler/full/qbMaeo" target="_blank">CodePen Demo</a> ##
+
 ## Usage ##
 Simple Method
 ```html
@@ -14,7 +16,7 @@ Simple Method
 ```js
 //simple method
 var str = '';
-var len = 50;
+var len = 75;
 $('.truncate').each(function () {
   str = $(this).text();
   if(str.length >= len) {
@@ -24,7 +26,7 @@ $('.truncate').each(function () {
 ```
 The result will be
 ```html
-We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defe...
+We the People of the United States, in Order to form a more perfect Union, ...
 ```
 
 
@@ -36,7 +38,7 @@ Advanced Method
 ```js
 //advanced method
 var str = '';
-var len = 50;
+var len = 75;
 $('.truncate').each(function () {
   str = $(this).text();
   if(str.length >= len) {
@@ -46,5 +48,5 @@ $('.truncate').each(function () {
 ```
 The result will be
 ```html
-We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense,...
+We the People of the United States, in Order to form a more perfect Union, establish...
 ```
