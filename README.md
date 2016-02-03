@@ -10,14 +10,14 @@ This script was original written by <a href="https://github.com/abrad45/" target
 ## Usage ##
 ###Simple Method###
 ```html
-<p class="truncate">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
+<p class="simple">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
 ```
 
 ```js
 //simple method
 var str = '';
 var len = 65;
-$('.truncate').each(function () {
+$('.simple').each(function () {
   str = $(this).text();
   if(str.length >= len) {
     $(this).text(str.substring(0, len) + '...');
@@ -32,14 +32,14 @@ We the People of the United States, in Order to form a more perfe...
 
 ###Advanced Method###
 ```html
-<p class="truncate">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
+<p class="advanced">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
 ```
 
 ```js
 //advanced method
 var str = '';
 var len = 65;
-$('.truncate').each(function () {
+$('.advanced').each(function () {
   str = $(this).text();
   if(str.length >= len) {
     $(this).text((str.indexOf(' ', len) === -1) ? $(this).text() : str.substring(0, str.indexOf(' ', len)) + '...');
