@@ -8,7 +8,7 @@ This script was originally written by <a href="https://github.com/abrad45/" targ
 ###<a href="http://codepen.io/tschisler/full/qbMaeo" target="_blank">CodePen Demo</a>###
 
 ## Usage ##
-###Simple Method###
+### Simple Method ###
 ```html
 <p class="simple">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
 ```
@@ -30,7 +30,7 @@ We the People of the United States, in Order to form a more perfe...
 ```
 
 
-###Advanced Method###
+### Advanced Method ###
 ```html
 <p class="advanced">We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defense, promote the general Welfare, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.</p>
 ```
